@@ -1,0 +1,48 @@
+<head>
+    <meta charset="utf-8" />
+    <title>Shopping Cart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="component.css" />
+</head>
+
+<body>
+    <article class="shopping">
+        <div class="shopping__head">
+        <h2 class="shopping__cart"> Your Cart</h2>
+        <p class="shopping__num">3</p>
+      </div>
+
+        <section class="shopping__main">
+            <div class="shopping__sec">
+                <h3 class="shopping__name"> Product name</h3>
+                <h4 class="shopping__brief"> Brief description</h4>
+                <p class="shopping__amount"> $12 </p>
+            </div>
+            <div class="shopping__sec">
+                <h3 class="shopping__name"> Second product</h3>
+                <h4 class="shopping__brief"> Brief description</h4>
+                <p class="shopping__amount"> $8 </p>
+            </div>
+            <div class="shopping__sec">
+                <h3 class="shopping__name"> Third item</h3>
+                <h4 class="shopping__brief"> Brief description</h4>
+                <p class="shopping__amount"> $5 </p>
+            </div>
+            <div class="shopping__sec shopping__sec--promo">
+                <h3 class="shopping__name"> Promo code</h3>
+                <h4 class="shopping__brief shopping__brief--promo"> EXAMPLECODE</h4>
+                <p class="shopping__amount"> -$5 </p>
+            </div>
+            <div class="shopping__sec shopping__sec--total">
+                <h3 class="shopping__name"> Total (USD)</h3>
+                <p class="shopping__amount"> $20 </p>
+            </div>
+        </section>
+        <section class="promo">
+            <div class="promo__wrapper">
+                <input placeholder="Promo code" class="promo__code" />
+                <button class="promo__redeem" type="button">Redeem</button>
+            </div>
+        </section>
+    </article>
+</body>
